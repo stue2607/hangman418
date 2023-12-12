@@ -3,7 +3,7 @@
 
 **Contents:**
 
-- [Installation instructions](# Installation instructions)
+- [Installation instructions](#Installation-instructions)
 - A description of the project: what it does, the aim of the project
 - Usage instructions
 - File structure of the project
