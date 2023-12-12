@@ -4,7 +4,7 @@
 **Contents:**
 
 - [Installation instructions](#Installation-instructions)
-- [A description of the project, what it does and the aim of the project](#A-description-of the project:-what-it-does-and-the-aim-of-the-project)
+- [A description of the project, what it does and the aim of the project](#A-description-of the project,-what-it-does-and-the-aim-of-the-project)
 - [Usage instructions](#Usage-instructions)
 - [File structure of the project](#File-structure-of-the-project)
 - [License information](#License-information)
