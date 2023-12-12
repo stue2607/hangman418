@@ -4,7 +4,7 @@
 **Contents:**
 
 - [Installation instructions](#Installation-instructions)
-- [A description of the project: what it does and the aim of the project](#A-description-of the project:-what-it-does-and-the-aim-of-the-project)
+- [A description of the project, what it does and the aim of the project](#A-description-of the project:-what-it-does-and-the-aim-of-the-project)
 - [Usage instructions](#Usage-instructions)
 - [File structure of the project](#File-structure-of-the-project)
 - [License information](#License-information)
@@ -17,7 +17,7 @@ There is no installation required as this a command line project and can be ran 
 
 -------------------------------------------------------------------------------------------------------------------
 
-### A description of the project: what it does and the aim of the project
+### A description of the project, what it does and the aim of the project
 
  **Hangman** project, developed as part of my Dev Ops training at [AiCore](#https://www.theaicore.com/). Hangman is a python game were a word is randomly selected from a list of fruits and the player tries to guess that word within five attempts. This is a take on the classic game where normally a player selects the word and another player tries to guess the word within a certain number of tries between 5 and 7 depending on the sketch of the hangman diagram.
 
