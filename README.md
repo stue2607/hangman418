@@ -3,11 +3,12 @@
 
 **Contents:**
 
-- [A description of the project: what it does, the aim of the project,](#A description of the project: what it does, the aim of the project, and what you learned)
-- Installation instructions
+- [Installation instructions](Installation-instructions)
+- A description of the project: what it does, the aim of the project
 - Usage instructions
 - File structure of the project
 - License information
+- What i learned
 --------------------------------------------------------------------
 
 *A description of the project: what it does, the aim of the project, and what you learned* 
