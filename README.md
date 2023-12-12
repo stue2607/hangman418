@@ -3,7 +3,7 @@
 
 **Contents:**
 
-- [Installation instructions](#*Installationinstructions*)
+- [Installation instructions](# Installation instructions)
 - A description of the project: what it does, the aim of the project
 - Usage instructions
 - File structure of the project
@@ -24,7 +24,7 @@
 
 -------------------------------------------------------------------------------------------------------------------
 
-*Installation instructions*
+### Installation instructions
 
 There is no installation required as this a command line project and can be ran straight from the file, i would suggest it is best used in VS Code as this is where i created all of the code but i can be pasted into any python command program as far as my knowledge goes.
 
