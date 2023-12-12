@@ -4,14 +4,20 @@
 **Contents:**
 
 - [Installation instructions](#Installation-instructions)
-- A description of the project: what it does, the aim of the project
-- Usage instructions
-- File structure of the project
-- License information
-- What i learned
+- [A description of the project: what it does and the aim of the project](#A-description-of the project:-what-it-does-and-the-aim-of-the-project)
+- [Usage instructions](#Usage-instructions)
+- [File structure of the project](#File-structure-of-the-project)
+- [License information](#License-information)
+- [What i learned](#What-i-learned)
 --------------------------------------------------------------------
 
-*A description of the project: what it does, the aim of the project, and what you learned* 
+### Installation instructions
+
+There is no installation required as this a command line project and can be ran straight from the file, i would suggest it is best used in VS Code as this is where i created all of the code but i can be pasted into any python command program as far as my knowledge goes.
+
+-------------------------------------------------------------------------------------------------------------------
+
+### A description of the project: what it does and the aim of the project
 
  **Hangman** project, developed as part of my Dev Ops training at [AiCore](#https://www.theaicore.com/). Hangman is a python game were a word is randomly selected from a list of fruits and the player tries to guess that word within five attempts. This is a take on the classic game where normally a player selects the word and another player tries to guess the word within a certain number of tries between 5 and 7 depending on the sketch of the hangman diagram.
 
@@ -20,17 +26,9 @@
 - The second method checks if the input letter provided by the user is in the random word;
 - And finally a method that asks the user for a letter and checks if this letter has already been tried, and if the input is correct.
 
- **Key takeaways in my personal development** I feel as an amateur in the Python programming language that i learned a lot about calling functions within other functions in a clean code and how to plan bringing everything together, one of the hardest parts of the project was cleaning up the code afterwards as the code started to look completely different to my original code which was at first alarming until i realised this seems to be a part of the coding process for many people when creating a new class. As i was progressing through the project i found that the code was not storing the returned values for the next turn and asfter some research and going back over past tutorials provided by AI Core i remembered learning that the self function was used to store values in the code and so experimented where the best places for these were and by trial and error got there after around 30 saves. GitHub proved quite a challenge at first as i found my project was not pushing with a critical error suggesting the repo did not have permissions to pull request through, after research i realised that i had configured 'git bash' slightly wrong by adding a dot in the middle of my username required for GitHub itself, i attempted to change this but as i used credential helper to store this i had to undo everything and redo as well as requesting a new token from GitHub to allow VS Code to push to my repo known as hangman418, all in all this was a very sucsesful learning and gave me a much stronger insight into GitHUb, git bash and VS Code with the way they work together. I have made the decision to add images to reference the hangman during the game after learning how to do this in a tutorial on YouTube, i discovered it is a very similar method to recording losing a life or replacing an underscore with a letter and so it felt the right thing to do. Although i am not 100% happy with the diagram of the hangman as i found using the right arm and leg as a symbol '\ ' moved the rest of the diagram onto the next line after testing and so had to use alternative symbols and the hangman now stands like Elvis, this is something i need to work on.
-
 -------------------------------------------------------------------------------------------------------------------
 
-### Installation instructions
-
-There is no installation required as this a command line project and can be ran straight from the file, i would suggest it is best used in VS Code as this is where i created all of the code but i can be pasted into any python command program as far as my knowledge goes.
-
--------------------------------------------------------------------------------------------------------------------
-
-*Usage instructions*
+### Usage instructions
 
 To start the game a function called "play_game" can start this which is wrapped around the code for ease of use, You will then be asked to input a single alphabetical letter and if this is an integer or multiple letters you will be asked to provide another single alphabetical letter. The game is set to have 5 lives and each incorrect guess of a letter will result in a loss of life in the game (but do not worry, you will be able to play again.)
 
@@ -38,7 +36,7 @@ As you play you will find instructions as you go along so please enjoy this game
 
 -------------------------------------------------------------------------------------------------------------------
 
-*File structure of the project*
+### File structure of the project
 
 Hangman by Stuart Elliott as part of the AI Core dev ops training course has 4 main areas to the file structure;
 - A markdown file containing the project documentation and explanation of the hangman project,
@@ -56,7 +54,7 @@ Hangman by Stuart Elliott as part of the AI Core dev ops training course has 4 m
            
 -------------------------------------------------------------------------------------------------------------------
 
-*License information*
+### License information
 
 - **Python code (Hangman) = MIT License**
 
@@ -108,3 +106,15 @@ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 DOCSTRING CONTENT, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 -------------------------------------------------------------------------------------------------------------------
+
+### What i learned
+
+**Key takeaways in my personal development** I feel as an amateur in the Python programming language that i learned a lot about calling functions within other functions in a clean code and how to plan bringing everything together, one of the hardest parts of the project was cleaning up the code afterwards as the code started to look completely different to my original code which was at first alarming until i realised this seems to be a part of the coding process for many people when creating a new class. 
+
+As i was progressing through the project i found that the code was not storing the returned values for the next turn and asfter some research and going back over past tutorials provided by AI Core i remembered learning that the self function was used to store values in the code and so experimented where the best places for these were and by trial and error got there after around 30 saves. 
+
+GitHub proved quite a challenge at first as i found my project was not pushing with a critical error suggesting the repo did not have permissions to pull request through, after research i realised that i had configured 'git bash' slightly wrong by adding a dot in the middle of my username required for GitHub itself, i attempted to change this but as i used credential helper to store this i had to undo everything and redo as well as requesting a new token from GitHub to allow VS Code to push to my repo known as hangman418, all in all this was a very sucsesful learning and gave me a much stronger insight into GitHUb, git bash and VS Code with the way they work together.
+
+I have made the decision to add images to reference the hangman during the game after learning how to do this in a tutorial on YouTube, i discovered it is a very similar method to recording losing a life or replacing an underscore with a letter and so it felt the right thing to do.
+
+Although i am not 100% happy with the diagram of the hangman as i found using the right arm and leg as a symbol '\ ' moved the rest of the diagram onto the next line after testing and so had to use alternative symbols and the hangman now stands like Elvis, this is something i need to work on.
