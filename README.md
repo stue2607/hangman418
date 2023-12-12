@@ -44,7 +44,7 @@ Hangman by Stuart Elliott as part of the AI Core dev ops training course has 4 m
 - Module files that were used to test each section of the project before being cleaned up and put together,
 - Licences for the project containing a Python licence and a GitHub licence.
 
->Within the main code of the game i declared the following using the assignment operator to make cleaner code;
+Within the main code of the game i declared the following using the assignment operator to make cleaner code;
 - self.word = random.choice(word_list)
 - self.word_guessed = list('_' * len(self.word))
 - self.num_letters = len(set(list(self.word)))
