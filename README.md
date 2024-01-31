@@ -109,12 +109,20 @@ DOCSTRING CONTENT, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ### What i learned
 
-**Key takeaways in my personal development** I feel as an amateur in the Python programming language that i learned a lot about calling functions within other functions in a clean code and how to plan bringing everything together, one of the hardest parts of the project was cleaning up the code afterwards as the code started to look completely different to my original code which was at first alarming until i realised this seems to be a part of the coding process for many people when creating a new class. 
+**Key takeaways in my personal development** I feel as an amateur in the Python programming language that i learned a lot about calling functions within other functions in a clean code and how to plan bringing everything together, one of the hardest parts of the project was cleaning up the code afterwards as the code started to look completely different to my original code which was at first alarming until i realised this seems to be a part of the coding process for many people when creating a new class.
 
-As i was progressing through the project i found that the code was not storing the returned values for the next turn and asfter some research and going back over past tutorials provided by AI Core i remembered learning that the self function was used to store values in the code and so experimented where the best places for these were and by trial and error got there after around 30 saves. 
+As i was progressing through the project i found that the code was not storing the returned values for the next turn and after some research and going back over past tutorials provided by AI Core i remembered learning that the self function was used to store values in the code and so experimented where the best places for these were and by trial and error got there after around 30 saves. <br>
+
+[![self-initialise.png](https://i.postimg.cc/dVv5QQ8v/self-initialise.png)](https://postimg.cc/bsCx3hCF) <br>
+<br>
 
 GitHub proved quite a challenge at first as i found my project was not pushing with a critical error suggesting the repo did not have permissions to pull request through, after research i realised that i had configured 'git bash' slightly wrong by adding a dot in the middle of my username required for GitHub itself, i attempted to change this but as i used credential helper to store this i had to undo everything and redo as well as requesting a new token from GitHub to allow VS Code to push to my repo known as hangman418, all in all this was a very sucsesful learning and gave me a much stronger insight into GitHUb, git bash and VS Code with the way they work together.
 
-I have made the decision to add images to reference the hangman during the game after learning how to do this in a tutorial on YouTube, i discovered it is a very similar method to recording losing a life or replacing an underscore with a letter and so it felt the right thing to do.
+I have made the decision to add images to reference the hangman during the game after learning how to do this in a tutorial on YouTube, i discovered it is a very similar method to recording losing a life or replacing an underscore with a letter and so it felt the right thing to do. <br>
 
-Although i am not 100% happy with the diagram of the hangman as i found using the right arm and leg as a symbol '\ ' moved the rest of the diagram onto the next line after testing and so had to use alternative symbols and the hangman now stands like Elvis, this is something i need to work on.
+[![hangman-images.png](https://i.postimg.cc/Y25XVz0v/hangman-images.png)](https://postimg.cc/5jmqQvwJ) <br>
+<br>
+
+Although i am not 100% happy with the diagram of the hangman as i found using the right arm and leg as a symbol '\ ' moved the rest of the diagram onto the next line after testing and so had to use alternative symbols and the hangman now stands like Elvis, this is something i need to work on. <br>
+
+[![hangman-right-arm.png](https://i.postimg.cc/VLX7c00D/hangman-right-arm.png)](https://postimg.cc/svDPYXch)
